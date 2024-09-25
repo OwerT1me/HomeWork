@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "cera-pro-bolt";
+    src: url(/font/CeraPro-Bold.ttf);}
+@font-face {
+    font-family: "cera-pro-lightitalic";
+    src: url(/font/CeraPro-LightItalic.ttf);} 
+@font-face {
+    font-family: "cera-pro-medium";
+    src: url(/font/CeraPro-Medium.ttf);}
+@font-face {
+font-family: "cera-pro-reg";
+src: url(/font/CeraPro-Regular.ttf);}  
+@font-face {
+    font-family: "cera-pro-black";
+    src: url(/font/CeraPro-Black.ttf);} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 38px;
+    width: 1200px;
+    padding-left:120px;
+}
+.nav_menu{
+    text-decoration: none;
+    color: #3D3D3D;
+    font-size: 16px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-family: 'cera-pro-reg';
+}
+button{
+    background-color: #46A358;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-color: #46A358;
+    font-family:'cera-pro-medium';
+}
+.login_button{
+    
+    width:100px;
+    height: 35px;
+    
+}
+.main_info{
+    width :100%;
+    max-width:1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    
+    
+    
+    
+
+}
+.main_text{
+    display: inline-block;
+    width:599px;
+    padding-left: 41px;
+    
+    
+    
+    
+}
+.image_pot{
+    display: inline-block;
+    width: 364px;
+    max-height: 0 auto;
+    
+    
+    
+}
+
+.h2{
+    padding-top: 68px;
+    font-size:14px;
+    font-family: 'cera-pro-medium';
+    color: #3D3D3D;
+}
+.h1{
+    font-size: 70px;
+    font-family: 'cera-pro-black';
+    color: #3D3D3D;
+}
+.h3{
+    font-size: 14px;
+    font-family:'cera-pro-reg';
+    color: #727272;
+}
+span{
+    color: #46A358;
+}
+.pot{
+    width: 591px;
+    
+}
+
+
+.shop_button{
+    margin-top:44px;
+    margin-bottom: 85px;
+    width:140px;
+    height:40px;
+    font-family: 'cera-pro-bolt';
+    
+    
+}
